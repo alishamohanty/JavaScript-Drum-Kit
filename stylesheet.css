@@ -1,0 +1,31 @@
+body {
+    background: url(http://www.klemenmarkelj.com/wp-content/uploads/2016/05/Black-White-Drum-Wallpaper-HD.jpg) center fixed;
+    margin-top: 40vh;
+    font-family:'Indie Flower'; 
+
+}
+.keys {
+    display: flex;
+    justify-content: center;
+}
+.key
+{
+    border-radius: 3px;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 1vw 2vw;
+    text-align: center;
+    margin: 0 10px;
+    background-color: rgba(19, 18, 17, 0.47);
+
+}
+.key kbd {
+    font-size: 3rem;
+}
+.playing {
+    border-color: rgb(218, 173, 25);
+    transform: scale(1.1);
+    background-color: rgb(211, 199, 161, 0.3);
+}
