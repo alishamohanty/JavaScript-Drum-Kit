@@ -19,6 +19,7 @@ body {
     text-align: center;
     margin: 0 10px;
     background-color: rgba(19, 18, 17, 0.47);
+    transition: all 0.07s;
 
 }
 .key kbd {
@@ -28,4 +29,4 @@ body {
     border-color: rgb(218, 173, 25);
     transform: scale(1.1);
     background-color: rgb(211, 199, 161, 0.3);
-}
+    box-shadow: 0 0 10px #ffc600;}
